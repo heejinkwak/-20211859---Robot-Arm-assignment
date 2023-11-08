@@ -1,1 +1,3 @@
+https://www.youtube.com/watch?v=BLQxo3aCPSI --> The following is a link to the demo of my robot arm
 
+To explain, I used different key functions to provide movement for each Arm and grip. I set the joint angles to 0 because I wanted it to move only when the key is pressed. As for the arms and grips, I basically just layered every rectangle on top of each other using rotation and translation, and provided a red dot in the middle to specify the center. As for the grips, I had to adjust the size of the rectangle, and with the corresponding sizes, I adjusted the numbers that go in the Rmat, Tmat so that it will place properly. 
